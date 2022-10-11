@@ -1,0 +1,39 @@
+let, var e const, são utilizados para criar uma variável.
+Ex.: let roupa = 'camiseta';
+let é a palavra usada para declarar uma variável
+roupa é o nome da variável
+= é o operador de atribuição
+camiseta é o valor atribuído à variável, que é colocado entre ''
+; completa a estrutura.
+
+Obs.: O valor da variável pode ser alterado, desde que use let ou var.
+Obs.: O valor da variável utilizando const, não pode ser alterado.
+
+console.log é o comando utilizado para visualizar as informações do console.
+
+Tipos primitivos:
+string: sequências de caracteres, como palavras, textos, senhas etc; Ex.: let nome = 'Tryber'; // string
+number: números, podendo ser positivos ou negativos, inteiros ou decimais; Ex.: let idade = 19; // number
+boolean: pode ser representado apenas pelos valores verdadeiro (true) ou falso (false); Ex.: let aprovado = true // boolean
+null: é um valor atribuído como nulo, ou seja, é um valor vazio;
+undefined: não possui um valor, ou seja, é um dado que não foi definido.
+typeof é utilizado para identificar o tipo de variável.
+
+Operadores aritméticos:
++ utilizado para soma;
+- utilizado para subtração;
+* utlizados para multiplicação;
+/ utilizado para divisão;
+** utilizado para exponenciação;
+() utilizado para dar precedência na ordem de operação;
+% utilizado para encontrar o resto de uma divisão;
+
+
+Operadores de comparação:
+=== para comparar estritamente a igualdade entre dois valores;
+!== para comparar estritamente a diferença entre dois valores;
+> para comparar se um valor é maior que outro;
+< para comparar se um valor é menor que outro;
+>= para comparar se um valor é maior ou igual do que outro;
+<= para comparar se um valor é menor ou igual do que outro.
+
