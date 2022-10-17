@@ -1,4 +1,32 @@
 div:hover {
     border: solid;
-    
+}
+
+div1 {
+    color: blue;
+}
+
+div2 {
+    color: orange;
+}
+
+div3 {
+    color: green;
+    font-size: 25px;
+}
+
+div4 {
+    color: yellow;
+}
+
+div5 {
+    color: red;
+}
+h3 {
+left: 10%;
+padding: 0.5em 15px;
+
+}
+div1, div3, div5 {
+    font-style: italic;
 }
