@@ -23,9 +23,12 @@ li em {
     font-weight: bold;
 }
 
-#linguagem li:nth-child(1), li:nth-child(2), li:nth-child(3) {
+#linguagem li:not(:nth-child(n + 4)) {
     color: blue;
 }
-#linguagem title~[href*="Java"] {
+#linguagem li:not(:first-child, :nth-child(n + 4)) {
     background-color: pink;
+}
+#aliados:hover {
+
 }
