@@ -38,7 +38,7 @@ li em {
 #aliados li a[href*="w3schools"] {
     color: red;
 }
-#aliados li a[href*="mdn web docs"] {
+#aliados li a[href*="mozilla"] {
     color: black;
 }
 #aliados li a[href*="devdocs"] {
