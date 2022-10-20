@@ -13,3 +13,12 @@ console.log(multiplicação);
 console.log(divisão);
 console.log(módulo);
 
+const num1 = 15;
+const num2 = 19;
+
+if (num1 > num2) {
+    console.log(num1);
+}
+else {
+    console.log(num2);
+}
