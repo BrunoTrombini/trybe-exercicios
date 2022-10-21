@@ -58,10 +58,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     }
 
 
-let menorNumero = numbers[0]
-for (let i = 0; i < numbers.length; i += 1) {
-    if(numbers[i] < menorNumero) {
-        menorNumero = numbers[i]
-    }
+// let menorNumero = numbers[0]
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if(numbers[i] < menorNumero) {
+//         menorNumero = numbers[i]
+//     }
+// }
+// console.log(menorNumero);
+
+let number = [];
+for (let i = 1; i <= 25; i += 1) {
+    number.push(i);
 }
-console.log(menorNumero);
+console.log(number);
+
+for (let i = 0; i < number.length; i += 1) {
+    console.log(number[i / 2]);
+}
