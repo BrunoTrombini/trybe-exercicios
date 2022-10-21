@@ -1,4 +1,23 @@
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-let menuServices = menu;
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let menuServices = menu[1];
 
-console.log(menuServices);
+// console.log(menuServices);
+
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let indexOfPortfolio = menu.indexOf('Portfólio');
+
+// console.log(indexOfPortfolio);
+
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// menu.push('Contato')
+
+// console.log(menu);
+
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+// for (let elementos of names) {
+//     console.log(elementos);
+// }
+
+for(let index = 0; index < 10; index+=1 ){
+    console.log('Oie');}
+  
