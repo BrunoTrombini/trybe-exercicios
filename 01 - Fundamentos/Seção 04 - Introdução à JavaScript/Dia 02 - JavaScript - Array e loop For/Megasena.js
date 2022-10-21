@@ -11,11 +11,23 @@ let n6 = Math.floor(Math.random() * 60) +1;
 let megaSena = [n1, n2, n3, n4, n5, n6];
 
 console.log('Jogo da Pessoa = ');
-for (let i = 0; i < jogoDaPessoa.length; i += 1) {
-    console.log(jogoDaPessoa[i]);
+for (let iJogo = 0; iJogo < jogoDaPessoa.length; iJogo += 1) {
+    console.log(jogoDaPessoa[iJogo]);
 }
 
 console.log('Jogo da MegaSena = ');
-for (let i = 0; i < megaSena.length; i += 1) {
-    console.log(megaSena[i]);
+for (let iMega = 0; iMega < megaSena.length; iMega += 1) {
+    console.log(megaSena[iMega]);
 }
+
+let acertos = 0;
+
+for (let iJogo = 0; iJogo < jogoDaPessoa.length; iJogo += 1) {
+    for (let iMega = 0; iMega < megaSena.length; iMega += 1) {
+        if (jogoDaPessoa[iJogo] == megaSena[iMega]) {
+            acertos += 1;
+        }
+    }
+}
+
+console.log("Você acertou", acertos, "número(s)")
