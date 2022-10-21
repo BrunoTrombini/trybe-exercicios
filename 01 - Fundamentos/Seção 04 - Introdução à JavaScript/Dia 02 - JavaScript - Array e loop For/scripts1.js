@@ -34,10 +34,34 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     console.log('valor menor que 20')
 // }
 
-let maiorNumero = numbers[0]
+
+// let maiorNumero = numbers[0]
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if(numbers[i] > maiorNumero) {
+//         maiorNumero = numbers[i]
+//     }
+// }
+// console.log(maiorNumero);
+
+
+// let valoresImpar = 0;
+// for (let i = 0; i < numbers.length; i += 1) {
+//     if (numbers[i] % 2 !== 0) {
+//         valoresImpar += 1;
+//     }
+// }
+//     if (valoresImpar === 0) {
+//         console.log('nenhum valor ímpar encontrado')
+//     }
+//     else {
+//         console.log(`Quantidade de números impares = ${valoresImpar}`);
+//     }
+
+
+let menorNumero = numbers[0]
 for (let i = 0; i < numbers.length; i += 1) {
-    if(numbers[i] > maiorNumero) {
-        maiorNumero = numbers[i]
+    if(numbers[i] < menorNumero) {
+        menorNumero = numbers[i]
     }
 }
-console.log(maiorNumero);
+console.log(menorNumero);
