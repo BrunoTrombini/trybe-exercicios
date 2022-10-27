@@ -30,5 +30,5 @@ let pessoa = {
     sobrenome: 'Trombini',
     anoDeNascimento: 1985
 }
-console.log(`Aluno ${pessoa.nome + ' ' + pessoa.sobrenome}
+console.log(`Aluno ${pessoa.nome} ${pessoa.sobrenome}
 Idade ${2022 - pessoa.anoDeNascimento}`);
