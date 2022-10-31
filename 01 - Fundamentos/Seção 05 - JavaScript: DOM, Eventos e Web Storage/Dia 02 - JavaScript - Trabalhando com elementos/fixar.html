@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main id="paiDoPai">
+        <section id="pai">
+            <section id="primeiroFilho"></section>
+            <section id="elementoOndeVoceEsta">
+                <section id="primeiroFilhoDoFilho"></section>
+                <section id="segundoEUltimoFilhoDoFilho"></section>
+            </section>
+            Atenção!
+            <section id="terceiroFilho"></section>
+            <section id="quartoEUltimoFilho"></section>
+        </section>
+        <script>
+            const element = document.getElementById(elementoOndeVoceEsta);
+            
+            const pai = element.parentElement;
+                pai.style.color = 'green';
+
+            const primeiroFilhoElement = element.firstElementChild;
+                primeiroFilhoElement.innerText = 'Qualquer coisa';
+
+            const primeiroFilhoPai = pai.firstElementChild;
+
+            const primeiroFilhoElement = element.previousElementSibling;
+
+            const textElement = element.nextSibling;
+
+            const terceiroFilhoElement = element.nextElementSibling;
+
+            const terceiroFilhoPai = pai.lastElementChild.previousElementSibling;
+            </script>
+  </main>
+</body>
+</html>
